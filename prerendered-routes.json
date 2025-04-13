@@ -1,8 +1,8 @@
 {
   "routes": {
-    "/": {},
-    "/about": {},
-    "/contact": {},
-    "/services": {}
+    "/Shubhodaya": {},
+    "/Shubhodaya/about": {},
+    "/Shubhodaya/contact": {},
+    "/Shubhodaya/services": {}
   }
 }

@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>SurgeonSeoSite</title>
-  <base href="/">
+  <base href="/Shubhodaya/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Inside index.html -->
 <meta property="og:title" content="Best Surgeon in Malur,Whitefield,Kolar,Hoskote | Dr. Shubhodaya R Surgeon"/>

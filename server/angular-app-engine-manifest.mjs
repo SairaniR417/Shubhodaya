@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/Shubhodaya',
   supportedLocales: {
   "en-US": ""
 },
