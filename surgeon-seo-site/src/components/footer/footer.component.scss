@@ -1,0 +1,15 @@
+.footer {
+    background: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+  }
+  .animate-fade-in {
+    animation: fadeIn 1.2s ease-in;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
