@@ -1,2 +1,0 @@
-export default `@keyframes slideIn{0%{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.animate-slide-in{animation:slideIn .8s ease forwards}.animate-fade-in{animation:fadeIn 1.2s ease forwards}
-`;
