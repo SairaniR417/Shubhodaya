@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SurgeonComponent } from '../surgeon/surgeon.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +10,9 @@ import { Meta, Title } from '@angular/platform-browser';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent implements OnInit{
-  constructor(private titleService: Title, private metaService: Meta) {}
-  
+export class HomeComponent implements OnInit {
+  constructor(private titleService: Title, private metaService: Meta) { }
+
   ngOnInit(): void {
     const title = `Best Surgeon in Malur,Whitefield,Kolar,Hoskote | Dr. Shubhodaya R Surgeon`;
     const description = `Need a top surgeon in Malur? Dr. Shubhodaya R Surgeon offers expert surgical

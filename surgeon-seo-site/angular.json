@@ -17,7 +17,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
             "outputPath": "dist/surgeon-seo-site",
+             "baseHref": "/Shubhodaya/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -25,12 +30,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+            
             "styles": [
               "src/styles.scss"
             ],
@@ -39,7 +39,8 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -63,7 +64,8 @@
               "sourceMap": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "production",
+          
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
